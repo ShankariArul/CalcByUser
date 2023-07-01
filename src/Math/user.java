@@ -31,6 +31,8 @@ public class user {
 			    System.out.println("Sub " +"= "+x);
 			    System.out.println("Add " +"= "+y);		
 			    System.out.println("Multiply " +"= "+z);
+			    
+			    System.out.println(x+y+z);
 
 	}
 
