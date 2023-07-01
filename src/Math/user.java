@@ -13,7 +13,7 @@ public class user {
 				
 			    int a = reader.nextInt();
 			    
-			    System.out.print("Enter number B");
+			    System.out.print("Enter number B ");
 			    
 			    int b = reader.nextInt();
 			    
@@ -21,7 +21,16 @@ public class user {
 			    System.out.println(Math.subtractExact(a, b));
 			    
 			    System.out.println(Math.addExact(a, b));
-			       
+			    
+			    System.out.println(Math.multiplyExact(a, b));
+			    
+			    int x = a-b;
+			    int y = a+b;
+			    int z = a*b;
+			    
+			    System.out.println("Sub " +"= "+x);
+			    System.out.println("Add " +"= "+y);		
+			    System.out.println("Multiply " +"= "+z);
 
 	}
 
